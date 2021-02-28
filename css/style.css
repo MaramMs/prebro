@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --mainColor:#fca311;
+    --secColor:#14213d;
+}
+.header{
+    background-image: url('../image/growing-global-network-data-connections-concept_34629-443.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+
+.navbar{
+   overflow: hidden;
+    background-color: var(--secColor);
+    padding: 20px;
+    align-items: center;
+    border-radius: 0;
+    z-index: 100000;
+}
+.navbar-default{
+    border-color:initial;
+}
+.navbar .navbar-header {
+ float: left;
+ width: 50%;
+}
+.navbar .navbar-header a img{
+   margin-top: -15px;
+   }
+.navbar .sign-in{
+    float: left;
+    width: 50%;
+}
+.navbar .sign-in input ,.navbar .sign-in .btn{
+    background-color: var(--mainColor);
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+}
+.navbar .sign-in input::placeholder{
+   color: #fff;
+}
+.header .prebro-type{
+    background-color: #fff;
+    width: 508px;
+    height: 566px;
+    margin-top: -19px;
+    clip-path: polygon(-5% 0%, 100% -1%, 75% 100%, 0% 100%);
+    padding: 83px;
+
+    
+   
+}
+.header .orang-1{
+    position: absolute;
+    top: 14%;
+    left: 31%;
+    background-color: var(--mainColor);
+    width: 83px;
+    height: 565px;
+    transform: skewX(-17deg);
+
+}
+.header .orang-1::before{
+    position: absolute;
+    top: 0;
+    left: -48%;
+    content: '';
+    width: 16px;
+    height: 200px;
+    background-color: #ddd;
+    transform: skewX(-5deg);
+}
+.header .orang-1::after{
+    position: absolute;
+    top: 0;
+    left: 35%;
+    content: '';
+    width: 16px;
+    height: 286px;
+    background-color: #fff;
+    transform: skewX(0deg);
+}
+.header .orang-2{
+    position: absolute;
+    top: 70%;
+    left: 43%;
+    background-color: var(--mainColor);
+    width: 73px;
+    height: 200px;
+    transform: skewX(-17deg);
+}
+.header .orang-2::before{
+    position: absolute;
+    bottom: 0;
+    left: -90%;
+    content: '';
+    width: 16px;
+    height: 200px;
+    background-color: #fff;
+    transform: skewX(-5deg);
+ 
+}
+
+
+.header .prebro-type h1{
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 5px;
+color: var(--secColor);
+}
+.header .prebro-type p{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: var(--secColor);
+  
+}
+.header .prebro-type ul{
+    list-style: none;
+}
+.header .prebro-type ul li::before{
+    content: '\2022';
+    width: 1em;
+    height: -1em;
+    color: var(--secColor);
+    display: inline-block;
+    font-weight: bold;
+ 
+}
+.header .prebro-type ul li{
+    text-transform: capitalize;
+    font-size: 15px;
+ 
+
+}
+.header .prebro-type a{
+    background-color: var(--mainColor);
+    border: 0;
+    width: 200px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.numbers {
+    background-color: #eee;
+    margin-top: -6px;
+    padding: 30px 0;
+}
+.numbers .nums-info{
+    display: flex;
+
+   
+}
+.numbers .nums-info .nums{
+ text-align: center;
+    flex: 1;
+}
+.numbers .nums-info .nums .nums-icon i{
+ width: 80px;
+ height: 80px;
+ border-radius: 50%;
+ text-align: center;
+ border:1px solid var(--mainColor);
+ padding: 20px;
+
+}
+.numbers .nums-info .nums  i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: var(--mainColor);
+  }
+  .numbers .nums-info .nums  span{
+    color:black;
+font-size: 25px;
+font-weight: bold;  
+}
+.numbers .nums-info .nums  p{
+    color:gray;
+ text-transform: capitalize;
+font-weight: bold;  
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="129.5" height="41.5" viewBox="0 0 129.5 41.5">
+  <g id="Group_4" data-name="Group 4" transform="translate(-547.25 -786.25)">
+    <g id="Social_Media" data-name="Social Media" transform="translate(548 787)">
+      <rect id="Rectangle" width="128" height="40" rx="4" fill="none" stroke="#0077b7" stroke-width="1.5"/>
+    </g>
+    <g id="linkedin" transform="translate(599 795.668)">
+      <path id="Path_7" data-name="Path 7" d="M3.045-.668a2.805,2.805,0,1,0-.071,5.6h.035a2.807,2.807,0,1,0,.036-5.6Zm0,0" fill="#0077b7"/>
+      <path id="Path_8" data-name="Path 8" d="M8.109,198.313h5.382v16.193H8.109Zm0,0" transform="translate(-7.791 -191.174)" fill="#0077b7"/>
+      <path id="Path_9" data-name="Path 9" d="M231.448,188.625c-2.9,0-4.851,2.729-4.851,2.729v-2.348h-5.383V205.2H226.6v-9.043a3.689,3.689,0,0,1,.177-1.314,2.946,2.946,0,0,1,2.762-1.968c1.948,0,2.727,1.485,2.727,3.662V205.2h5.382v-9.285c0-4.974-2.656-7.288-6.2-7.288Zm0,0" transform="translate(-212.536 -181.867)" fill="#0077b7"/>
+    </g>
+  </g>
+</svg>
