@@ -1,10 +1,20 @@
 .signUp{
-   width: 87%;
+   /* width: 87%; */
     height:auto;
     background-color: #fff;
-    margin: 40px;
-
-  
+    margin: 13px 46px; 
+}
+@media(max-width:575px){
+    .signUp{
+     
+         margin: 0px; 
+     }  
+}
+@media only screen and (max-width: 991px){
+    .signUp{
+     
+        margin: 0px; 
+    }  
 }
 body{
     background-color: var(--secColor);
@@ -49,6 +59,11 @@ margin-bottom: 20px;
  form{
      width: 70%;
  }
+ @media(max-width:575px){
+    form{
+        width: 90%;
+    }  
+}
  .input-group{
     overflow: hidden;
     /* margin-bottom: 20px; */
@@ -147,13 +162,37 @@ color: #ccc;
 p.have_acc a{
  border: 0;
 }
-.signUp-content img.sign-img{
-    width: 100%;
-}
 
- footer{
-margin-top: -35px;
-    padding: 20px 0;
+.signUp-content img.sign-img{
+    width: 109%;
+}
+@media(max-width:575px){
+    .col-lg-6{
+        padding-left: 0;
+    }
+    .signUp-content img.sign-img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 991px){
+    .signUp-content img.sign-img{
+        width: 100%;
+    }  
+}
+ @media only screen and (max-width: 1024px){
+    .signUp-content img.sign-img{
+        width: 96%;
+    }  
+} 
+@media only screen and(min-width: 1025px) (max-width: 1199px){
+    .signUp-content img.sign-img{
+        width: 109%;
+    }  
+}
+ footer{ 
+
+    /* padding: 20px 0;  */
+    /* margin-top: -40px; */
  
    
 } 
@@ -164,14 +203,24 @@ margin-top: -35px;
     
 }
 
- /* footer .footer-content{
-    display: flex; */
-    /* margin-left: 70px; 
-}   */
+@media(max-width:575px){
+    .footer-content{
+        display: inline-block;
+        margin-top: 10px;
+
+        
+        
+    }
+}
   footer .footer-content .left-list span{
     color: #888;
     text-transform: capitalize;
     padding: 0 5px;
+}
+@media(max-width:575px){
+    footer .footer-content .left-list span{
+       font-size: 13px;
+    }
 }
 footer .footer-content .left-list span:not(:last-child):after{
     content: '';
@@ -180,7 +229,11 @@ footer .footer-content .left-list span:not(:last-child):after{
     margin-left: 5px;
 }  
 .cop-right{
-   color: #ccc;
-   
-
+   color: #888;
+}
+@media(max-width:575px){
+    .cop-right{
+       font-size: 13px;
+       margin-top: 10px;
+    }
 }
