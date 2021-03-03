@@ -1,0 +1,84 @@
+.navbar{
+    margin-bottom: 0px;
+    padding: 4px;
+}
+.navbar-brand{
+    padding: 0;
+}
+.navbar .navbar-header a img {
+    margin-top: 0px;
+}
+.company{
+    background-color:#f7f7f7;
+    margin-bottom: 30px;
+}
+.company-content{
+    background-color: #fff;
+    /* width: 500px; */
+    height: 87vh;
+}
+@media(max-width:575px){
+    .company-content{
+        background-color: #fff;
+        /* width: 500px; */
+        height: 100vh;
+    }
+}
+.company-content {
+    padding: 5px 80px;
+}
+@media(max-width:575px){
+    .company-content {
+        padding: 10px 80px;
+    }
+}
+h2{
+    margin-top: 0px;
+}
+.company-content h2{
+    text-transform: capitalize;
+}
+
+
+.company-content form{
+    position: relative;
+}
+.company-content form  label{
+    display: block;
+    font-size: 15px;
+    color: #333333a8;
+}
+.company-content form  .input-group{
+    margin-bottom: 15px;
+}
+.company-content form  .input-group span{
+    background-color: none;
+}
+.company-content form input{
+    border-radius: 0;
+} 
+.company-content form input:focus{
+    border-color:var(--mainColor);
+}
+.company-content form p {
+text-transform: capitalize;
+font-size: 25px;
+}
+@media(max-width:575px){
+    .company-content form p {
+        text-transform: capitalize;
+        font-size: 15px;
+        }
+}
+.company-content form button{
+     right: 0;
+ 
+  
+    background-color: var(--mainColor);
+    color: #fff;
+    text-transform: capitalize;
+    width: 150px;
+    padding: 10px 40px;
+    border: 0;
+    outline: 0;
+}
